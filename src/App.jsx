@@ -57,13 +57,9 @@ export default function App () {
           <h1 className="UseInf">User Information</h1>
 
           <div><UserIcon/></div>
-          <div><UserProfile/></div>
+          
 
           <form onSubmit={handleSubmit} >
-          
-            
-            
-            
             <div><Information/></div>
             <div><UserProfile/></div>
           </form>
