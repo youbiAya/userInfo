@@ -1,0 +1,32 @@
+label.name {
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    bottom: 400px;
+    left:500px;
+  }
+  label.emailAdr{
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    bottom: 300px;
+    left:500px;
+    
+  }
+  label.PhoneNum {
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    bottom: 400px;
+    left:800px;
+  
+  }
+  label.Password{
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    bottom: 300px;
+    left:800px;
+    
+  }
+  

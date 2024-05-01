@@ -1,0 +1,9 @@
+.Background-img {
+    background-image: URL(https://media.discordapp.net/attachments/1202584017078067250/1205819761259450389/Price_1.png?ex=65ec372a&is=65d9c22a&hm=4324a435e40ca7c360076fb1a1c23d6fe296d30ff375534d5a7b2a401d3e8255&=&format=webp&quality=lossless&width=1040&height=585);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 1500px;
+  
+  }

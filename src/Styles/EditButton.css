@@ -1,0 +1,44 @@
+.edit {
+  
+  
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(80, 131, 101);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+   bottom: 200px;
+   left:215px;
+  
+  }
+  
+  
+  .edit:hover {
+    color: transparent; 
+  }
+  .edit:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(100, 131, 118);
+  }
+  
+  
+  .controls{
+    position: absolute;
+    color: #ccc;
+    bottom: 150px;
+    left:150px;
+    
+  }
+  .cancel {
+    position: absolute;
+    bottom: 198px;
+    left:110px;
+  }
