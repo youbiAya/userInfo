@@ -57,7 +57,7 @@ app.put('/api/update/:email', async (req, res) => {
         const hashedPassword = await bcrypt.hash(NewPassword, 10);
 
         // Construct the SQL query to update user information based on the email
-        const sqlUpdate = "UPDATE USERS SET USERNAME = ?, PASSWORD_HASH = ?, PHONE = ?, PROFILE_PIC = ?  WHERE Email = ? ";
+        const sqlUpdate = "UPDATE Userr SET user_Name = ?, passwordd = ?, phone = ?, user_cover = ?  WHERE gmail = ? ";
         const values = [NewName, hashedPassword, NewPhone, NewUserProfile, email];
         
         db.query(sqlUpdate, values, (err, data) => {
